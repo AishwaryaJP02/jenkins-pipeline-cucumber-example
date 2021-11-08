@@ -8,10 +8,10 @@ pipeline{
 
             steps {
 
-               {
+               
                     sh 'mvn clean install'
 
-                }
+                
 
             }
         }
@@ -19,10 +19,10 @@ pipeline{
 
             steps {
 
-                {
+                
                     sh 'mvn test'
 
-                }
+                
 
             }
         }
