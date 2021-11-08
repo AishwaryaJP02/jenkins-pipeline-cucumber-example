@@ -8,6 +8,9 @@ pipeline{
     stages {
 
         stage ('Compile Stage') {
+	tools {
+                jdk "jdk8"
+            }
 
             steps {
 
@@ -19,6 +22,9 @@ pipeline{
             }
         }
     stage ('Test Stage') {
+	    tools {
+                jdk "jdk8"
+            }
 
             steps {
 
