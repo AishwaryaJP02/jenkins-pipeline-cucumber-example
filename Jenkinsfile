@@ -25,7 +25,7 @@ pipeline{
                 
                     sh 'mvn test'
 
-                
+                   sh 'mvn allure:serve'	
 
             }
         }
